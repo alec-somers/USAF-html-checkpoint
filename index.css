@@ -37,6 +37,7 @@ input:focus {
   align-items: center;
   color: white;
   padding: 8px;
+  margin-bottom: 10px;
 }
 .main-header-nav {
   display: flex;
@@ -51,7 +52,8 @@ input:focus {
   margin-left: auto;
 }
 
-.search-form-input {
+.search-form-input,
+.comment-input {
   height: 50px;
   width: 200px;
   border-radius: 8px;
@@ -87,7 +89,8 @@ input:focus {
   gap: 8px;
 }
 
-.login-button {
+.login-button,
+.comment-submit-button {
   height: 50px;
   width: 75px;
   border-radius: 8px;
@@ -95,4 +98,64 @@ input:focus {
   color: white;
   font-size: 120%;
   outline: none;
+}
+
+.movie-display {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+img {
+  height: 500px;
+  width: 375px;
+  border-radius: 8px;
+}
+
+.top-border {
+  background-color: grey;
+  width: 100%;
+  border-radius: 8px;
+  height: 60px;
+}
+.top-border h4 {
+  padding: 20px;
+}
+
+.back-to-results {
+  color: rgb(213, 156, 54);
+}
+
+.main-movie-info {
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+
+.movie-description {
+  align-self: flex-start;
+  padding-left: 10px;
+  width: 69%;
+}
+
+.main-image {
+  height: 550px;
+  width: 450px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 50px;
+  gap: 50px;
+}
+
+.comment-submit-button {
+  width: 50%;
+}
+
+.comment-input {
+  width: 15rem;
 }

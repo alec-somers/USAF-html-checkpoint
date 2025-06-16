@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Info</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h2>GMDB</h2>
+      <nav class="main-header-nav">
+        <a href="home.html">Home</a>
+        <a href="index.html">Login</a>
+      </nav>
+      <form class="search-form">
+        <input
+          class="search-form-input"
+          type="search"
+          name="search-bar"
+          value=""
+          placeholder="Search"
+        />
+        <button class="search-form-button" type="button">Search</button>
+      </form>
+    </header>
+    <div class="top-border">
+      <a class="back-to-results" href="home.html">
+        <h4>Back to results</h4>
+      </a>
+    </div>
+    <main class="main-movie-info">
+      <div>
+        <img class="main-image" src="./img/28-days-later.jpeg" />
+      </div>
+
+      <section class="movie-description">
+        <header class="movie-info-header">
+          <h2>28 Days Later</h2>
+          <h3>Released June 27th, 2003</h3>
+        </header>
+        <p class="genre">
+          Horror, Drama | Cillian Murphy, Brendan Gleeson, Naomie Harris,
+          Christopher Eccleston
+        </p>
+        <p class="synopsis">
+          A group of misguided animal rights activists free a caged chimp
+          infected with the "rage" virus from a medical research lab. When
+          London bike courier Jim (Cillian Murphy) wakes up from a coma a month
+          after, he finds his city all but deserted. On the run from the
+          zombie-like victims of the rage, Jim stumbles upon a group of
+          survivors, including Selena (Naomie Harris) and cab driver Frank
+          (Brendan Gleeson), and joins them on a perilous journey to what he
+          hopes will be safety.
+        </p>
+      </section>
+
+      <form class="comment-form">
+        <div>
+          <div>
+            <label for="comment" class="comment-label">Leave a comment:</label>
+          </div>
+
+          <input
+            class="comment-input"
+            type="text"
+            id="comment"
+            name="comment"
+          />
+        </div>
+
+        <button class="comment-submit-button" type="Submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
