@@ -23,6 +23,10 @@ a:hover {
   font-weight: bold;
 }
 
+input {
+  font-size: large;
+}
+
 input:focus {
   outline: none;
 }
